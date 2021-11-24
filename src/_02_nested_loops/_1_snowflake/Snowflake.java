@@ -2,13 +2,15 @@ package _02_nested_loops._1_snowflake;
 
 import java.awt.Color;
 
+import org.jointheleague.graphical.robot.Robot;
+
 
 public class Snowflake {
 	
 	public static void main(String[] args) {
 
 		// #1. Make a new Robot
-
+		Robot rob = new Robot();
 
 		// #2. Set your robot’s position to x=300 and y=300
 
