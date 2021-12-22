@@ -29,13 +29,31 @@ public class GauntletLoop {
 			if(i % 7 == 0) {
 				System.out.println(i);
 			}
-		}int age = 0;
+		}
+		int age = 0;
 		for(int i = 2007; i < 2022; i++) {
 			System.out.println("In "+ i + " you were " + (age));
 			age++;
-		}*/
-		for(int i = 0; i < 2; i++) {
-				
 		}
+		for(int i = 0; i < 3; i++) {
+			for(int p = 0; p < 3; p++) {
+				System.out.println(i + " " + p);
+			}
+		}
+		int q = 1;
+		for(int i = 0; i < 3; i++) {
+			for(int p = 0; p < 3; p++) {
+				System.out.print(q++);
+			} 
+			System.out.println();
+		}*/
+		int u = 1;
+		for(int i = 0; i < 10; i++) {
+			for(int p = 0; p < 10; p++) {
+				System.out.print(u++);
+			}
+		System.out.println();
+		}
+		
 	}
 }
