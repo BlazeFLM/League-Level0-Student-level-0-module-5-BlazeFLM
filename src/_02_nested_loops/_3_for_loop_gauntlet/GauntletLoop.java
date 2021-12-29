@@ -46,14 +46,23 @@ public class GauntletLoop {
 				System.out.print(q++);
 			} 
 			System.out.println();
-		}*/
+		}
 		int u = 1;
 		for(int i = 0; i < 10; i++) {
 			for(int p = 0; p < 10; p++) {
-				System.out.print(u++);
+				System.out.print(u+ " ");
+				u++;
 			}
 		System.out.println();
 		}
-		
+		for(int i = 1; i < 7; i++) {
+			for(int p = 0; p < i; p++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}*/
+		for(int i = 0; i < 101; i++) {
+			System.out.println((100 - i));
+		}
 	}
 }
