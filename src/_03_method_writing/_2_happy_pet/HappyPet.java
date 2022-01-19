@@ -12,7 +12,7 @@ public class HappyPet {
 	static int hppylvl = 0;
 	static Random ran = new Random();
 	static int ranum = ran.nextInt(3);
-	
+
 	static String pet = JOptionPane.showInputDialog("What pet do you want to buy?");
 
 	public static void main(String[] args) {
@@ -55,16 +55,17 @@ public class HappyPet {
 	// purr when pet),
 	// and INCREMENT the pet's happiness Level.
 	public static void food() {
+		ranum = ran.nextInt(2);
 		if (ranum == 0) {
 			JOptionPane.showMessageDialog(null, "You fed your " + pet + " a banana");
-		} else if (ranum == 1) {
+		} else {
 			JOptionPane.showMessageDialog(null, "You fed your " + pet + " peanut butter");
 		}
-		
 
 	}
 
 	public static void play() {
+		ranum = ran.nextInt(3);
 		if (ranum == 0) {
 			JOptionPane.showMessageDialog(null, "You took your " + pet + " to the park");
 		} else if (ranum == 1) {
@@ -72,11 +73,11 @@ public class HappyPet {
 		} else if (ranum == 2) {
 			JOptionPane.showMessageDialog(null, "You went to your friend's house with your " + pet);
 		}
-		
+
 	}
 
 	public static void groom() {
 		JOptionPane.showMessageDialog(null, "You groomed your " + pet);
-		
+
 	}
 }
