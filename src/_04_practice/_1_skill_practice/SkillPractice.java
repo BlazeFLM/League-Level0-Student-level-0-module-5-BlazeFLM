@@ -58,7 +58,7 @@ public class SkillPractice {
 			JOptionPane.showMessageDialog(null, "You live in the World's Finest City");
 			// Otherwise, tell them to move to San Diego
 		} else {
-			JOptionPane.showMessageDialog(null, "What are you doing? Move here now!");
+			JOptionPane.showMessageDialog(null, "What are you doing? Move to San Diego now!");
 		}
 		// Create a variable - cars - and initialize it to the number of cars your
 		// family has. // If there are 0 cars, use a pop-up to display, "I bet you use
@@ -77,9 +77,9 @@ public class SkillPractice {
 	}
 
 	void skill5() { // In a pop-up, ask the user for the name of their school
-		
+		String school = JOptionPane.showInputDialog("What is the name of your school?");
 		// In another pop-up, tell the user, that their school is a fantastic school. //
 		// You must include the name of the school in the message.
-
+		JOptionPane.showMessageDialog(null, school + " is a great school!");
 	}
 }
