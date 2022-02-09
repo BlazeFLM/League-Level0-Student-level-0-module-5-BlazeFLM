@@ -18,5 +18,6 @@ public class Algorithms {
 			} else {
 				JOptionPane.showMessageDialog(null,"Not Prime");
 			}
+		
 	}
 }
